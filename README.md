@@ -1,2 +1,14 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13251330&assignment_repo_type=AssignmentRepo)
 # Programming Foundations CA
+
+# Headphones Object
+
+This object has the following prperties:
+
+- Brand (string), the manufacter
+- Model (string), the headphone model
+- wireless (true), state if headset is wireless or not
+- isOn (boolean), on/off state
+- batterylevel (number), how many percent battery is left
+- volume (number), how many percent volume
+- noiseCancelMode (array), lists what kind of noise cancel states the headphones has
+- powerOn, (function), turns headset to on lr off
