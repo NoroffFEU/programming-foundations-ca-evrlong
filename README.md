@@ -11,4 +11,4 @@ This object has the following prperties:
 - batterylevel (number), how many percent battery is left
 - volume (number), how many percent volume
 - noiseCancelMode (array), lists what kind of noise cancel states the headphones has
-- powerOn, (function), turns headset to on lr off
+- powerOn, (function), turns headset to on or off
