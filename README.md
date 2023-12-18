@@ -4,7 +4,7 @@
 
 This object has the following prperties:
 
-- Brand (string), the manufacter
+- Brand (string), the manufactor
 - Model (string), the headphone model
 - wireless (true), state if headset is wireless or not
 - isOn (boolean), on/off state
