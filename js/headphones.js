@@ -6,7 +6,7 @@ var cancelStatus = document.querySelector(".modeStatus")
 var cotainerPwr = document.querySelector(".powerOnContainer")
 
 
-
+let activeMode = '';
 const headphones = {
     brand: { 
         name:"Sony",
@@ -119,7 +119,7 @@ function fullMode() {
 
 
 
-let activeMode = '';
+
 
 function setMode(mode) {
     activeMode = mode;
