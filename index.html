@@ -7,19 +7,25 @@
     <title>Programming Foundations CA</title>
     <link href='css/style.css' rel='stylesheet' />
     <link rel='icon' href='data:;base64,=' />
-</head>
 
 <body>
-    <div class="modeContainer">
-        <div class="modePower" id="power">ON</div>
-        <div class="modeAmbient" id="ambient">Ambient</div>
-        <div class="modeFull" id="full">Full</div>
+
+    <div class="mobileContainer">
+        <div class="powerOnContainer">
+            <h2>Headphones is</h2><button class="powerOnBtn"> OFF</button>
+        </div>
+        <h3> Noise cancelling </h3>
+
+        <div class="modeContainer">
+            <div class="modePower hover" id="power">OFF</div>
+            <div class="modeAmbient hover " id="ambient">Ambient</div>
+            <div class="modeFull hover" id="full">Full</div>
+        </div>
+
+        <p class="modeStatus" id="status">Noise cancelling mode is OFF</p>
+
+        <script src="js/headphones.js"></script>
     </div>
-
-    <p class="modeStatus" id="status">Noise cancelling mode is OFF</p>
-
-    <script src="js/headphones.js"></script>
-    <script src="js/app.js"></script>
 </body>
 
 </html>
