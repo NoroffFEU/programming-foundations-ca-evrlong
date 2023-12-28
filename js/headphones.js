@@ -39,6 +39,7 @@ const headphones = {
         activateNoiseButton.style.background = "Red";
         ambientButton.style.background = "darkslategrey";
         fullButton.style.background = "darkslategrey";
+        cancelStatus.innerHTML = "Welcome";
         
     }
     else {
@@ -48,6 +49,7 @@ const headphones = {
         activateNoiseButton.style.background = "grey";
         ambientButton.style.background = "grey";
         fullButton.style.background = "grey";
+        cancelStatus.innerHTML = "Headset is turned OFF"
         
     }
 let pwrStatus = headphones.isOn;
