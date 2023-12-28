@@ -98,7 +98,7 @@ function ambientMode() {
     activateNoiseButton.style.background = "darkslategrey";
     ambientButton.style.background = "green"
     fullButton.style.background = "darkslategrey";
-    cancelStatus.innerHTML ="Ambient mode ON";
+    cancelStatus.innerHTML ="Ambient mode is ON";
     setMode("ambient")
     }
 }
