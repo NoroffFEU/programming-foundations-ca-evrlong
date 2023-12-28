@@ -1,4 +1,36 @@
 body {
-	font-family: sans-serif;
-	padding: 1em 3em;
+  font-family: sans-serif;
+  padding: 1em 3em;
+  background-color: rgb(131, 135, 132);
+}
+
+.modeAmbient,
+.modeFull,
+.modePower {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: darkslategrey;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 2px black;
+}
+
+.modePower {
+  background-color: brown;
+}
+
+.modeContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.modeStatus {
+  background-color: rgb(168, 108, 36);
+  width: 50%;
+  margin: 20px auto 20px auto;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 2px black;
 }
