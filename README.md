@@ -6,8 +6,9 @@ This object has the following properties:
 
 - Brand (string), the manufactor
 - Model (string), the headphone model
-- ConnectType (String), What kind of cable input
-- wireless (true), state if headset is wireless or not
+- Connection:
+  - Cable (String), What kind of cable input
+  - boolean (boolean), state if headset is wireless or not
 - isOn (boolean), on/off state
 - batterylevel (number), how many percent battery is left
 - volume (number), how many percent volume
