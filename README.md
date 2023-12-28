@@ -14,4 +14,4 @@ This object has the following properties:
 - volume (number), how many percent volume
 - noiseCancelMode (array), lists what kind of noise cancel states the headphones has
 - powerOn (function), turns headset to on or off
-- activeMode (empty string), what mode (noise cancelling) is active
+- activeMode (string), what mode (noise cancelling) is active.
