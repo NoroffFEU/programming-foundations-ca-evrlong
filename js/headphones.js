@@ -80,8 +80,7 @@ function noiseCancelPwr() {
 
     }
     else  {
-        activateNoiseButton.innerHTML = "OFF"
-        activateNoiseButton.style.background = "Red";
+        activateNoiseButton.innerHTML = "OFF"; activateNoiseButton.style.background = "Red";
         ambientButton.style.background = "darkslategrey";
         fullButton.style.background = "darkslategrey";
         cancelStatus.innerHTML ="Noise Cancelling mode is OFF";
