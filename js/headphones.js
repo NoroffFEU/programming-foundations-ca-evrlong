@@ -52,17 +52,15 @@ const headphones = {
         cancelStatus.innerHTML = "Headset is turned OFF"
         
     }
+
 let pwrStatus = headphones.isOn;
 
 if (pwrStatus === false) {
     console.log("The headphones are currently OFF");
-
-
 }
 else 
 console.log("The headphones are currently ON");
-
-    }
+  }
 };
 
 powerOnFunc.onclick = headphones.powerOn;
@@ -115,9 +113,6 @@ function fullMode() {
     setMode("Full")
     }
 }
-
-
-
 
 
 function setMode(mode) {
