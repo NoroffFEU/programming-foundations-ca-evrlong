@@ -6,7 +6,7 @@ var cancelStatus = document.querySelector(".modeStatus")
 var cotainerPwr = document.querySelector(".powerOnContainer")
 
 
-let activeMode = '';
+
 const headphones = {
     brand: { 
         name:"Sony",
@@ -29,6 +29,7 @@ const headphones = {
     {name: "ambient", noiseCancel: 30,},
     {name: "full", noiseCancel: 100,}
 ],
+
 
     powerOn: function() {
         headphones.isOn = !headphones.isOn;
@@ -63,7 +64,12 @@ console.log("The headphones are currently ON");
   }
 };
 
-powerOnFunc.onclick = headphones.powerOn;
+
+
+let activeMode = ''; //what mode (noise cancelling mode) is active.
+
+
+powerOnFunc.onclick = headphones.powerOn; //Turns headphones on
 
 
 function noiseCancelPwr() {
